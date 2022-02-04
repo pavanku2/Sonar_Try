@@ -57,8 +57,8 @@ jobs:
       - name: Build  and run unit tests
         run: |       
           dotnet build Sonar\Sonar.csproj --no-restore   
-          dotnet build Sonar\Sonar.Test.csproj --no-restore            
-          dotnet test Sonar\Sonar.Test.csproj --no-build --no-restore --verbosity normal -p:CollectCoverage=true -p:CoverletOutputFormat=opencover
+          dotnet build Sonar.Test\SonarTest.csproj --no-restore            
+          dotnet test Sonar.Test\SonarTest.csproj --no-build --no-restore --verbosity normal -p:CollectCoverage=true -p:CoverletOutputFormat=opencover
         
          
       - name: End Sonar scan
