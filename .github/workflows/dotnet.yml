@@ -59,7 +59,7 @@ jobs:
           dotnet build Sonar\Sonar.csproj --no-restore   
           dotnet build Sonar\Sonar.Test.csproj --no-restore            
           dotnet test --no-build --no-restore --verbosity normal -p:CollectCoverage=true -p:CoverletOutputFormat=opencover
-          working-directory: ./Sonar
+        
          
       - name: End Sonar scan
         run: dotnet sonarscanner end /d:sonar.login=${{ secrets.SONAR_TOKEN }}
