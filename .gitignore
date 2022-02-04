@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Sonar.Test/bin/Debug/net6.0
+/Sonar.Test/obj
+/Sonar/bin/Debug/net6.0
+/Sonar/obj
+/Sonar/.vs/Sonar/v17
