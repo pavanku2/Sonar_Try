@@ -32,7 +32,7 @@ namespace Sonar
         public  double Division(double num1, double num2)
         { 
             // comment
-            if(num1 ==0)
+            if(num1 <= 0)
             {
                 return 0;
             }
