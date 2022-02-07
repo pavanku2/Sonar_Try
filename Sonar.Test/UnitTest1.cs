@@ -30,8 +30,8 @@ namespace Sonar.Test
 
         [Theory]
         [InlineData(8, 4, 2)]
-        [InlineData(-9, 3, 0)]
-        [InlineData(0, 3, 0)]
+        [InlineData(-9, 3, -3)]
+        [InlineData(-1, 3, 0)]
         public void Division_ShouldCalculateSimpleValues(double num1, double num2, double expected)
         {
             WeatherForecast weatherForecast = new WeatherForecast();
