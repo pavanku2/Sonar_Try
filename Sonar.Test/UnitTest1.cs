@@ -43,6 +43,23 @@ namespace Sonar.Test
         }
 
         [Fact]
+        public void Multiplication_ShouldMultiplyByZero()
+        {
+            WeatherForecast weatherForecast = new WeatherForecast();
+
+            // dummy    comment
+            double expected = 0;
+
+            // Action
+            double actual = weatherForecast.Division(7, 0);
+
+            // Assertion
+            Assert.Equal(expected, actual);
+        }
+
+        
+
+        [Fact]
         public void Division_ShouldDivideByZero()
         {
             WeatherForecast weatherForecast = new WeatherForecast();
