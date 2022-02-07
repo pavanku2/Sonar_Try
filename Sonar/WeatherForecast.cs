@@ -36,7 +36,7 @@ namespace Sonar
             {
                 return 0;
             }
-            if (num2 == 0)
+            if (num2 <= 0)
             {
                 return 0;
             }
