@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Sonar.Controllers
 {
     [Route("api/[controller]")]
-    //[ApiController] //Dummy class
+    //[ApiController] //Dummy class 1
     public class ValuesController : ControllerBase
     {
         public ValuesController()
