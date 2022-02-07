@@ -58,8 +58,7 @@ jobs:
         run: |       
           dotnet build Sonar\Sonar.csproj --no-restore   
           dotnet build Sonar.Test\SonarTest.csproj --no-restore            
-          dotnet test Sonar.Test\SonarTest.csproj --no-build --no-restore --verbosity normal -p:CollectCoverage=true -p:IncludeTestAssembly=true -p:CoverletOutputFormat=opencover
-
+          dotnet test Sonar.Test\SonarTest.csproj --no-build --no-restore --verbosity normal -p:CollectCoverage=true -p:IncludeTestAssembly=true -p:CoverletOutputFormat=opencover -l trx
         
          
       - name: End Sonar scan
