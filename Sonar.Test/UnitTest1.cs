@@ -47,7 +47,7 @@ namespace Sonar.Test
         {
             WeatherForecast weatherForecast = new WeatherForecast();
 
-            // Instantiation
+            // dummy
             double expected = 0;
 
             // Action
