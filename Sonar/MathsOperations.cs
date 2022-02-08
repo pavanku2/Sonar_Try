@@ -9,6 +9,7 @@
         public int Add(int x, int y)
         {    if(x < 0 || y < 0)
             {
+                //return -1; // commented code
                 return 0;
             }
             return x + y;
