@@ -5,31 +5,13 @@
         //Created dummy variable to validate sonar check
          bool res = false;
          int UserId = 1;
-         string Password = "";
+         string Password = "password";
 
         public MathsOperations()
         {
 
         }
-        public void BadCodeExample1()
-        {
-            bool Option1 = false;
-            bool Option2 = false;
-            bool Option3 = false;
-
-            if (Option1 == true && Option2 == false && Option3 == false)
-            {
-                //Do Somthing
-            }
-            else if (Option1 == true && Option2 == true && Option3 == false)
-            {
-                //Do Somthing
-            }
-            else if (Option1 == true && Option2 == false && Option3 == true)
-            {
-                //Do Somthing
-            }
-        }
+       
 
         public void AnotherExampleOfBadCode()
         {
