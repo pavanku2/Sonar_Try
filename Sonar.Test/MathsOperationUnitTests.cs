@@ -14,7 +14,7 @@ namespace SonarTest
         [InlineData(3, 6, 9)]
         [InlineData(4, 3, 7)]
         [InlineData(-10, 10, 0)]
-        [InlineData(-10, -10, -20)]
+        [InlineData(-10, -10, 0)]
         public void Addition_ShouldCalculateSimpleValues(int num1, int num2, int expected)
         {
             // Action
