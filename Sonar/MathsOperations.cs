@@ -3,9 +3,8 @@
     public class MathsOperations
     {
         //Created dummy variable to validate sonar check
-         bool res = false;
-         int UserId = 1;
-         string Password = "password";
+        string username = "admin";
+        string password = "Admin123"; // Sensitive
 
         public MathsOperations()
         {
