@@ -11,6 +11,26 @@ namespace Sonar.Test
             Assert.True(true);
         }
 
+        public void BadCodeExample1()
+        {
+            bool Option1 = false;
+            bool Option2 = false;
+            bool Option3 = false;
+
+            if (Option1 == true && Option2 == false && Option3 == false)
+            {
+                //Do Somthing
+            }
+            else if (Option1 == true && Option2 == true && Option3 == false)
+            {
+                //Do Somthing
+            }
+            else if (Option1 == true && Option2 == false && Option3 == true)
+            {
+                //Do Somthing
+            }
+        }
+
 
         [Theory]
         [InlineData(3, 6, 9)]
